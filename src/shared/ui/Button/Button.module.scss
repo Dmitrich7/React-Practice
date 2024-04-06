@@ -1,8 +1,22 @@
-.Button{
-  cursor: pointer;
+.cool{
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  box-shadow: 2px 1px 0px 2px;
+
+  &:hover{
+    translate: -1px -1px;
+    box-shadow: 3px 1px 0px 2px;
+  }
+  &:active{
+    box-shadow: 1px 1px 0px 1px;
+    translate: 2px 2px;
+  }
 }
 
-.Clear{
+.clear{
   padding:0;
   margin:0;
   background: none;
