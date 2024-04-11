@@ -1,7 +1,7 @@
 import React from 'react';
 import {classNames} from "shared/lib/classNames/classNames";
 import cls from './ThemeSwitcher.module.scss';
-import {useTheme} from "app/providers/ThemeProvider";
+import { useTheme} from "app/providers/ThemeProvider/lib/useTheme";
 import {Button, ThemeButton} from "shared/ui/Button/Button";
 import {useTranslation} from "react-i18next";
 
